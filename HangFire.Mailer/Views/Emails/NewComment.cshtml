@@ -1,0 +1,11 @@
+﻿@model  HangFire.Mailer.Models.NewCommentEmail
+
+To: @Model.To
+From: desenvolvimento@fazendomais.com.br
+Subject: New comment posted
+
+Hello,
+There is a new comment from @Model.UserName:
+
+@Model.Comment
+
